@@ -5,9 +5,9 @@
   "description": "Authentication library for the browser environment using Web Crypto API",
   "license": "MIT",
   "author": {
-    "name": "Kriasoft",
-    "email": "hello@kriasoft.com",
-    "url": "https://github.com/kriasoft"
+    "name": "Juhani Pelli",
+    "email": "juhani.pelli@gmail.com",
+    "url": "https://github.com/unkhz"
   },
   "contributors": [
     {
@@ -26,7 +26,7 @@
       "url": "https://www.patreon.com/koistya"
     }
   ],
-  "repository": "github:kriasoft/web-auth-library",
+  "repository": "github:unkhz/web-auth-library",
   "keywords": [
     "auth",
     "authentication",
@@ -71,6 +71,7 @@
   "scripts": {
     "lint": "eslint --report-unused-disable-directives .",
     "test": "node --experimental-vm-modules $(yarn bin jest)",
+    "prepare": "npm run build",
     "build": "rm -rf ./dist && yarn tsc"
   },
   "dependencies": {
