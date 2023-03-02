@@ -70,9 +70,9 @@
   },
   "scripts": {
     "lint": "eslint --report-unused-disable-directives .",
-    "test": "node --experimental-vm-modules $(yarn bin jest)",
+    "test": "node --experimental-vm-modules $(npm bin jest)",
     "prepare": "npm run build",
-    "build": "rm -rf ./dist && yarn tsc"
+    "build": "rm -rf ./dist && tsc"
   },
   "dependencies": {
     "jose": ">= 4.12.0 < 5.0.0",
